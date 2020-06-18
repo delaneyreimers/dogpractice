@@ -1,0 +1,31 @@
+body {
+  background: #FFCC00;
+
+}
+h1{
+  color: purple;
+  background: pink;
+  float: right;
+}
+p, li {
+  font-size: 1.4em;
+}
+.facts {
+  background:green;
+}
+.facts .important {
+  font-size: 2em;
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background: purple;
+  }
+  img {
+    width: 100%;
+  }
+  .facts li {
+    float: left;
+    width: 33%
+  }
+}
